@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "personnal-cli"
+version = "1.0"
+description = "This is a main code for CLi-bot"
+authors = ["Slytherin fantom <uliadiakiv@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
